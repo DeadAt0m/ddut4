@@ -19,7 +19,9 @@ Installation and Configuration Summary
 2. Install / update with updateServer.sh
 
     If .ini files are found in the base directory, they will be pushed to the SRVNAMES. Engine.ini is global to all SRVNAMES. This only happens when updateServer is executed to completion.
-    Edit Game.ini and Rules.ini files with editConfig.sh and editRules.sh
+    
+3. Edit active Game.ini and Rules.ini files with editConfig.sh and editRules.sh
+
     The files will also be synced to your base directory as SRVNAME-Game.ini and SRVNAME-Rules.ini when you're done editing.
 
 3. Launch a server instance:
