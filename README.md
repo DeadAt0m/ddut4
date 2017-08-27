@@ -18,7 +18,7 @@ Installation and Configuration Summary
         
 2. Install / update with updateServer.sh
 
-    - If .ini files are found in the base directory, they will be pushed to the SRVNAMES. Engine.ini is global to all SRVNAMES. This only happens when updateServer is executed to completion.
+    - If .ini files are found in the base directory, they will be pushed to the SRVNAMES. Engine.ini is global to all SRVNAMES. This only happens when updateServer.sh is executed to completion.
     
 3. Edit active Game.ini and Rules.ini files with editConfig.sh and editRules.sh
 
@@ -28,13 +28,13 @@ Installation and Configuration Summary
 
     - Automatic (preferred method): Automatically launch and monitor servers with ut4wd.sh
     
-        Example: ./ut4wd.sh HUB
+        Example: "./ut4wd.sh HUB"
         
     - Manual: Launch/stop servers directly with launchServer.sh (read more below)
     
-    - Restart a server by running launchServer.sh SRVNAME restart & followed by the disown command.
-    - Stop a server by running launchServer.sh SRVNAME stop.
-                Note: If ut4wd.sh is running in the background, a new server instance will eventually be started!
+    - Restart a server by running "launchServer.sh SRVNAME restart &" followed by the "disown" command.
+    - Stop a server by running "launchServer.sh SRVNAME stop".
+                Note: If ut4wd.sh is running in the background, a new server instance will eventually be started! Kill the ut4wd.sh process to avoid this.
 
 Upgrades
 
