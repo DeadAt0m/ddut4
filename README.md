@@ -53,6 +53,6 @@ Todo / Wishlist
         Add editEngine.sh and combine to a unified editor (depending on demand, based on comments below) 
 
 
-More info and tech deepdive: https://forums.unrealtournament.com/showthread.php?18077-DDUT4-Linux-Server-Administration-amp-Deployment-Suite
+More info and tech deepdive: https://www.epicgames.com/unrealtournament/forums/unreal-tournament-development/server-administration/9177-ddut4-linux-server-administration-deployment-suite
 
 DDRRE / Snir Hassidim, 2016
