@@ -38,7 +38,7 @@ for i in $@
 do
 if [ ! -f ${rootdir}/ut4-$i/updateflag ]
 	then
-		cd "${rootdir}"
+		cd "${rootdir}/ddut4"
 		./launchServer.sh $i wd &
 fi
 done
